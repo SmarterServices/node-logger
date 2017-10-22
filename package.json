@@ -4,7 +4,7 @@
   "description": "Logger module for node applications",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha ./test/lib/logger && nyc report --reporter=lcov"
   },
   "repository": {
     "type": "git",
@@ -22,12 +22,15 @@
   },
   "homepage": "https://github.com/SmarterServices/node-logger#readme",
   "dependencies": {
-    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
     "moment": "^2.19.1",
     "pify": "^3.0.0",
     "rollbar": "^2.2.10"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "eslint-plugin-promise": "^3.6.0",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1"
   }
