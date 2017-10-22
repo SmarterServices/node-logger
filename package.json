@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/SmarterServices/node-logger#readme",
   "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
     "mkdirp": "^0.5.1",
     "moment": "^2.19.1",
     "pify": "^3.0.0",
