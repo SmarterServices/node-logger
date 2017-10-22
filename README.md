@@ -50,3 +50,19 @@ Currently this module supports the following targets-
 ### **Console:** Logs to console.
 ### **File:** Logs to file. Path must be given in configuration options.
 ### **Rollbar:** Logs to [rollbar](https://rollbar.com/). Api key must be given in configuration options.
+
+## External Dependencies
+All packages pulled in by the package.json file.
+
+## Deployment
+
+N/A
+
+## Cronjobs
+N/A
+
+## Credits
+
+**Original Author**
+
+* [Md. Badiul Haque Shawon](https://github.com/EnosisShawon)
