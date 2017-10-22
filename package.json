@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "node-logger",
   "version": "0.0.1",
   "description": "Logger module for node applications",
   "main": "index.js",
