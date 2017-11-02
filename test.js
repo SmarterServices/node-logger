@@ -5,7 +5,10 @@ const Logger = require('./index');
 const logger = new Logger({
   'targets': [
     {
-      'name': 'console'
+      'name': 'console',
+      'options': {
+        'wrapMethods': ['error']
+      }
     },
     {
       'name': 'file',
