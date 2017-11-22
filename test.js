@@ -20,7 +20,14 @@ const logger = new Logger({
   ]
 });
 
-logger.log('Hello', 'World!');
+function Foo() {
+  this.abc = 'Hello';
+  this.circular = this;
+}
+
+const foo = new Foo();
+
+logger.log(foo);
 logger.info('Testing', 'logger');
 logger.warn('Warning');
 logger.error('Danger! Your App is crashed!');
